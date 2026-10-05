@@ -1,0 +1,29 @@
+\begin{tabular}{|l|c|l|c|l|c|}
+\hline
+\textbf{Scenario} & \textbf{SDQ-Match} & \textbf{Best tier 1} & \textbf{Gain (\%)} & \textbf{Best tier 2} & \textbf{Gain (\%)} \\ \thickhline
+Calibration ($\lambda_0=0.16$, $\tau=5$, $\bar P=45$) & 63.38 & Whittle & +12.3 & Whittle-F & +2.1 \\ \hline
+Load $\lambda_0=0.12$ & 81.09 & Whittle & +13.4 & Whittle-F & +2.8 \\ \hline
+Load $\lambda_0=0.14$ & 72.32 & GA & +13.0 & Whittle-F & +1.7 \\ \hline
+Load $\lambda_0=0.18$ & 51.50 & Whittle & +10.0 & Whittle-F & +1.7 \\ \hline
+Load $\lambda_0=0.20$ & 43.70 & Whittle & +9.6 & Whittle-F & +0.4$^{\dagger}$ \\ \hline
+Latency $\tau=2$ & 66.81 & Whittle & +5.9 & Whittle-F & +3.4 \\ \hline
+Latency $\tau=8$ & 60.15 & Whittle & +18.3 & Whittle-F & +1.4 \\ \hline
+Latency $\tau=10$ & 58.48 & Whittle & +27.0 & Lag-SIPP & +1.3 \\ \hline
+Patience $\bar P=20$ & 66.35 & GA & +13.6 & Whittle-F & +2.0 \\ \hline
+Patience $\bar P=30$ & 65.24 & Whittle & +12.2 & Whittle-F & +1.6 \\ \hline
+Patience $\bar P=60$ & 61.82 & Whittle & +12.3 & Whittle-F & +2.5 \\ \hline
+Forecast error $\epsilon=0.1$ & 63.35 & Whittle & +12.3 & Whittle-F & +2.3 \\ \hline
+Forecast error $\epsilon=0.2$ & 63.31 & Whittle & +12.2 & Whittle-F & +2.8 \\ \hline
+Forecast error $\epsilon=0.3$ & 63.07 & Whittle & +11.8 & Whittle-F & +3.7 \\ \hline
+Forecast error $\epsilon=0.5$ & 60.98 & Whittle & +8.1 & Whittle-F & +4.4 \\ \hline
+Weekend profile & 64.24 & PSO & +11.1 & Whittle-F & +2.1 \\ \hline
+Festival profile & 59.75 & GA & +12.7 & Whittle-F & +2.6 \\ \hline
+Weekend, weekday history & 60.61 & PSO & +4.8 & Whittle-F & +4.0 \\ \hline
+Festival, weekday history & 56.99 & GA & +7.5 & Whittle-F & +2.2 \\ \hline
+Negative-binomial arrivals & 62.11 & Whittle & +11.6 & Whittle-F & +2.6 \\ \hline
+Log-normal flight times & 61.80 & Whittle & +11.5 & Whittle-F & +1.6 \\ \hline
+Uniform patience & 58.19 & Whittle & +10.3 & Whittle-F & +1.3$^{\dagger}$ \\ \hline
+$S=10$, $N=20$ & 58.73 & Whittle & +13.2 & Whittle-F & +4.5 \\ \hline
+$S=20$, $N=40$ & 57.73 & Whittle & +13.1 & Whittle-F & +4.0 \\ \hline
+$S=40$, $N=80$ & 59.49 & Whittle & +12.3 & Whittle-F & +3.3 \\ \hline
+\end{tabular}
